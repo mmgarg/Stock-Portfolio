@@ -1,0 +1,125 @@
+/* body {
+  background-image: url("../images/bg_image.png");
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  color: #7878bd;
+}
+h4 {
+  text-align: center;
+  color: #7878bda1;
+}
+.signup-box {
+  width: 400px;
+  height: 540px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+}
+.login-box {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+}
+
+form {
+  padding: 25px;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #dadaf7;
+  border-radius: 5px;
+  background-color: #e9e9f7;
+  color: #7a7ab3;
+}
+
+label {
+  color: #838a96;
+  font-size: 18px;
+  display: block;
+  margin-top: 20px;
+  padding-bottom: 6px;
+}
+
+.button {
+  width: 320px;
+  height: 35px;
+  margin-top: 30px;
+  border: none;
+  background-color: #7878bd;
+  color: white;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: #5f5f9c;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.para-2 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.para-2 a {
+  color:aliceblue;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.input:focus-visible {
+  outline: 1px solid #aeaed6;
+}
+
+.input::-moz-placeholder {
+  color: #bcbcdf;
+}
+
+.input:-ms-input-placeholder {
+  color: #bcbcdf;
+}
+
+.input::-ms-input-placeholder {
+  color: #bcbcdf;
+} */
+
+/* Bootsrap */
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
